@@ -1,11 +1,17 @@
 import React from "react";
-import Button from "@mui/material/Button";
+// something similar to normalize.css
+import CssBaseline from "@mui/material/CssBaseline";
+
+import Layout from "./components/layout/layout";
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="contained">Hello World</Button>
-    </div>
+    <>
+      <CssBaseline />
+      <Layout>
+        <p>Hello again!</p>
+      </Layout>
+    </>
   );
 }
 
